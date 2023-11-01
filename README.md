@@ -1,0 +1,2 @@
+# showIknow
+azure repo setup
