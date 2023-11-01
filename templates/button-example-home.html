@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons!</title>
+</head>
+<body>
+    <!-- The next line references a JavaScript file to be used in this HTML template. -->
+    <script src="{{url_for('static', filename='js/button-example.js')}}"></script>
+
+    <p>Below are various buttons. Try them out and take a look at the JavaScript code!</p>
+
+    <p id="datetime"></p>
+
+    <!-- The buttons below use functions from our JavaScript file. -->
+    <button id = "button1" onclick="disableButton()">Disable</button>
+
+    <button id = "button2" onclick="showDatetime()">Show Date and Time</button>
+
+    <button id = "button3" onclick="colorChanger()">Change Color</button>
+
+    <button id = "button4" style="font-size:13.5px" onclick="biggerFont()">Get Bigger!</button>
+
+    <button id = "button5" onclick="refreshPage()">Refresh</button>
+
+    <button id = "button6" onclick="redirect()">Redirect</button>
+
+    <button id = "button7" onclick="alertButton()">Alert</button>
+
+    <button id = "button8" onclick="createButton()">Create a Button</button>
+
+</body>
+</html>
