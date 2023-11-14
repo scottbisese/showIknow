@@ -12,8 +12,8 @@ class SQLConnection(object):
 
     def getConnection(self):
 
-        server = '<Your Azure SQL Server Name Here>'
-        database = '<Your Azure SQL Database Name Here>'
+        server = 'sqlserverbisesescott01.database.windows.net'
+        database = 'sqldbbisesescott01'
         username = 'sqlserveradmin'
         password = 'Password123'
         driver= '{ODBC Driver 18 for SQL Server}'
